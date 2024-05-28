@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-sky-500 to-red-500">
+        <!-- navbar section -->
+    <nav class="bg-transparent p-1 w-full fixed">
+        <div  class="container mx-auto flex justify-between items-center">
+        <div class="text-3xl text-gray-400 font-bold">
+            <h1 class="text-white">J<span class="text-red-500">boy</span></h1>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">Home</a>
+          <a href="#about" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">About</a>
+          <a href="#services" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">Services</a>
+          <a href="#footer" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="text-white focus:outline-none">
+            <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoion="round" stroke-width="2" d="M4 6h16M4 1216m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+            </div>
+            <div class="mobile-menu hidden text-center">
+          <a href="#home" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Home</a>
+          <a href="#about" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">About</a>
+          <a href="#services" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Services</a>
+          <a href="" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Contact</a>
+            </div>
+      </nav>
+      
+      <!-- hero section -->
+      <section class="my-15 bg-tranparent" id="home">
+        <div class="container max-w-7xl mx-auto px-4 lg:px-2 sm:px-10 lg:py-[100px]">
+          <div class="text-center md:flex justify-between items-center h-100vh">
+          <div class="gap-7 py-16">
+            <p class="text-white font-bold">Hello there. Welcome to my site.</p>
+            <h1 class="text-5xl text-white font-bold mb-4">I'm Jboy<br><span class="text-red-500 text-5xl">A Full Stack Development</span><br>& UX/UI Designer</h1>
+            <button class="bg-pink-500 text-white p-4 rounded-full hover:bg-transparent border-2 border-pink-500">See portfolio</button>
+            <button class="bg-transparent text-white p-4 rounded-full hover:bg-pink-500 border-2 border-pink-500">Learn more</button>
+          </div>
+          <div class="image ">
+            <img src="profile2.jpg" alt="" class="hidden lg:h-80 lg:w-[500px]  md:w-80   object-contain md:h-[300px] md:block">
+          </div>
+        </div>
+      </div>
+      </section>
+    <script src="main.js"></script>
+</body>
+</html>
